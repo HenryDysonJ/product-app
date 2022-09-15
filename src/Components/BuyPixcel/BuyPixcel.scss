@@ -1,0 +1,121 @@
+$border-color: 1.5px solid rgb(228, 229, 230);
+$font-size: x-small;
+.modal {
+  font-size: x-small;
+  color: #adafaf;
+}
+.close {
+  font-size: medium;
+  text-align: right;
+  color: aliceblue;
+}
+.buy {
+  color: #174753;
+  font-weight: 700;
+  font-size: 14px;
+}
+.form {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+}
+.form-control {
+  text-align: left;
+}
+.custom-select {
+  font-size: $font-size;
+}
+.image {
+  height: 30px;
+  width: 20px;
+}
+.label {
+  font-size: x-small;
+}
+.box-form {
+  margin: 0.3rem;
+}
+.product-detail {
+  margin-top: 0px;
+  border: $border-color;
+  padding: 6px;
+}
+.incoice {
+  margin-top: 5px;
+  border: $border-color;
+  height: 180px;
+  width: 40px;
+}
+.button {
+  margin-top: 13px;
+}
+.save-btn {
+  font-size: small;
+  color: #219ebc;
+  font-weight: 400;
+  border: none;
+}
+.add-btn {
+  font-size: small;
+  color: #219ebc;
+  border: none;
+}
+.btn-buy {
+  margin-left: 13px;
+  border-radius: 3px;
+  font-size: x-small;
+  color: #f4f7f8;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: 500;
+  border: none;
+}
+.address {
+  margin-top: 8px;
+  border: $border-color;
+  height: 240px;
+  width: 310px;
+}
+form {
+  margin-top: 15px;
+}
+.name {
+  text-align: left;
+}
+.amt {
+  text-align: right;
+}
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: x-small;
+}
+.dollar {
+  color: #143942;
+  font-weight: 600;
+}
+
+.show-add {
+  .crd-add {
+    margin-left: 10px;
+    margin-top: 4px;
+  }
+  .btn-edit {
+    color: rgb(234, 149, 3);
+    font-size: small;
+    margin-top: 4px;
+  }
+  p {
+    margin-top: 6px;
+  }
+  h5 {
+    color: #174753;
+    font-size: small;
+    font-weight: 700;
+  }
+  font-size: x-small;
+  color: #adafaf;
+  margin-top: 5px;
+  border: $border-color;
+}

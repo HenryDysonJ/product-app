@@ -1,0 +1,86 @@
+$text-color: rgb(154, 152, 152);
+$font-size: small;
+$background-colora: #e3f7f4;
+$background-colorb: #ebf5f3;
+$background-colorc: #f7f7ed;
+$padding-phone: 40px;
+$btn-text: 10px;
+.navs {
+  padding: 0.4rem;
+}
+.tittle {
+  display: flex;
+  list-style: none;
+}
+li {
+  margin: 7px;
+  color: $text-color;
+}
+.cbtn {
+  float: right;
+  margin-top: 5px;
+}
+.filter {
+  font-size: $font-size;
+}
+h6 {
+  color: $text-color;
+  font-size: $font-size;
+}
+.background-a {
+  background-color: $background-colora;
+  padding: $padding-phone;
+}
+.phone {
+  height: 90px;
+  width: 100px;
+  text-align: center;
+}
+.name {
+  font: normal normal medium 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #023047;
+  opacity: 1;
+  font-size: small;
+  text-align: left;
+  font-weight: 600;
+}
+.price {
+  font: normal normal medium 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #023047;
+  opacity: 1;
+  font-size: small;
+  text-align: right;
+}
+.text {
+  font-size: $btn-text;
+}
+.start {
+  opacity: 1;
+  text-align: right;
+  color: #ffb703;
+  font-size: small;
+}
+.rate {
+  font-size: 10px;
+}
+.vew-prodect {
+  font-size: $btn-text;
+}
+.btn-buy {
+  background-color: #219ebc;
+  border-radius: 5px;
+}
+
+.btn-buynow {
+  font-size: small;
+  background-color: #219ebc;
+  border: none;
+  color: #ffff;
+  opacity: 1;
+}
+.product {
+  color: #139bbd;
+  font-weight: 500;
+}

@@ -1,0 +1,108 @@
+$font-size: small;
+$text-color: #023047;
+$listcolor: rgb(145, 144, 144);
+
+.img {
+  text-align: center;
+}
+.head {
+  color: $text-color;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-left: 15px;
+  font-size: $font-size;
+}
+.close {
+  color: #023047;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+div.detail {
+  width: 450px;
+  height: 250px;
+  padding: 40px;
+  margin: 4px;
+  overflow: scroll;
+}
+
+table {
+  border: 0px solid #faf5f5;
+  width: 350px;
+  overflow: scroll;
+}
+.key {
+  color: $text-color;
+  font-size: small;
+  font-weight: 600;
+}
+.value {
+  color: #7a7979;
+  font-size: small;
+  text-align: end;
+}
+.footer {
+  padding: 0px;
+}
+.btn-buynow {
+  font-size: small;
+  background-color: #219ebc;
+  border: none;
+  color: #ffff;
+  opacity: 1;
+}
+h6 {
+  color: #023047;
+}
+.black {
+  color: black;
+  margin: 20px;
+}
+.blue {
+  color: aqua;
+  margin: 20px;
+}
+.color {
+  margin: 20px;
+}
+td {
+  margin: 1rem;
+}
+.arrow {
+  margin-top: 2.5rem;
+  color: #a7a5a5;
+}
+
+/*landscape*/
+.phones {
+  height: 200px;
+  margin-left: -9px;
+}
+.arrows {
+  margin-top: 90px;
+  font-size: medium;
+  color: $listcolor;
+}
+.heads {
+  p {
+    margin: -3px;
+    color: #023047;
+  }
+  color: $listcolor;
+  font-weight: 400;
+  margin: -4px;
+}
+div.product-details {
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 260px;
+  width: 250px;
+  border: none;
+}
+
+.priceRows {
+  display: flex;
+  justify-content: space-between;
+  font-size: x-small;
+}
