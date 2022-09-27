@@ -22,6 +22,9 @@ const PixcelPotriate = () => {
   const handleCLosed = () => {
     navigate("/home");
   };
+  const handleBuy=()=>{
+    navigate("/buy")
+  }
   return (
     <>
       <HomePage />
@@ -138,7 +141,7 @@ const PixcelPotriate = () => {
             </div>
             <div className="col-sm-4"></div>
             <div className="col-sm-4">
-              <button className="btn btn-buynow" onClick={handleClose}>
+              <button className="btn btn-buynow" onClick={handleBuy}>
                 {data.id.button}
               </button>
             </div>

@@ -33,7 +33,7 @@ h6 {
 }
 .phone {
   height: 90px;
-  width: 100px;
+  width: 120px;
   text-align: center;
 }
 .name {
@@ -41,7 +41,7 @@ h6 {
   letter-spacing: 0px;
   color: #023047;
   opacity: 1;
-  font-size: small;
+  font-size: 15px;
   text-align: left;
   font-weight: 600;
 }
@@ -55,32 +55,79 @@ h6 {
 }
 .text {
   font-size: $btn-text;
+  float: left;
+}
+.bottom {
+  position: static;
+}
+.phone-card {
+  margin: 5px;
+
 }
 .start {
   opacity: 1;
   text-align: right;
   color: #ffb703;
   font-size: small;
+  float: right;
 }
 .rate {
   font-size: 10px;
+  float: right;
 }
 .vew-prodect {
   font-size: $btn-text;
 }
-.btn-buy {
-  background-color: #219ebc;
-  border-radius: 5px;
-}
 
-.btn-buynow {
-  font-size: small;
-  background-color: #219ebc;
-  border: none;
-  color: #ffff;
-  opacity: 1;
-}
 .product {
   color: #139bbd;
   font-weight: 500;
+}
+.bottom {
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 10px;
+}
+.top{
+  margin-top: -11px;
+}
+.hide {
+  margin-top: 3px;
+}
+.phone-card {
+  line-height: 0px;
+  max-height:fit-content;
+}
+
+.phone-card:hover {
+  .hide {
+    display: none;
+  }
+  .show {
+    margin-top: 6px;
+    .btn-buynow {
+      border-radius: 3px;
+    }
+  }
+}
+
+.profile-img{
+  height:35px;
+  width: 30px;
+  border-radius: 20px;
+  margin-left: 5px;
+
+}
+.arr-ico{
+  margin-left: 2px;
+  color:#969696;
+  font-size: 20px;
+}
+.profile{
+  border: solid #139bbd 1.2px;
+  border-radius: 25px;
+  margin-left: 62%;
+  margin-right: 20%;
+  text-align: center;
 }

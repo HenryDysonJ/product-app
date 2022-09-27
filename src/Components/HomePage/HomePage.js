@@ -3,8 +3,12 @@ import axios from "axios";
 import "./HomePage.scss";
 import { Card } from "../card/Card";
 import { useNavigate } from "react-router-dom";
+import { IoIosArrowDown } from "react-icons/io";
+
 const HomePage = () => {
   const [product, setProduct] = useState();
+  const [open, setOpen] = useState(true);
+
   let navigate = useNavigate();
 
   useEffect(() => {
@@ -20,9 +24,11 @@ const HomePage = () => {
   }, []);
 
   const handleCreate = () => {
-    navigate("/");
+    setOpen(!open);
   };
-
+  const handleShow = () => {
+    setOpen(!open);
+  };
   return (
     <div className="container">
       <div className="navs ">
@@ -45,13 +51,26 @@ const HomePage = () => {
             </div>
           </div>
           <div className="col-sm">
-            <button
-              type="button"
-              className="btn btn-outline-info btn-sm cbtn"
-              onClick={handleCreate}
-            >
-              CREATE ACCOUNT
-            </button>
+            {open ? (
+                <button
+                  type="button"
+                  className="btn btn-outline-info btn-sm cbtn"
+                  onClick={handleCreate}
+                >
+                  CREATE ACCOUNT
+                </button>
+            ) : (
+              <div className="profile" onClick={handleShow}>
+                <img
+                  src="https://pps.whatsapp.net/v/t61.24694-24/306111009_379437831062652_8851310210670736408_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AVzGSFIpt6lLr9xkfIkdqFqtknN4GOBsS6lmEE7iDf4ZEw&oe=633DC4CD"
+                  alt=""
+                  className="profile-img"
+                />
+                <span className="arr-ico">
+                  <IoIosArrowDown />
+                </span>
+              </div>
+            )}
           </div>
         </div>
       </div>

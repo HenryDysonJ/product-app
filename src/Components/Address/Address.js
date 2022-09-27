@@ -18,7 +18,7 @@ const Address = ({ setOpen = () => false }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     localStorage.setItem("address", JSON.stringify(data));
-    setOpen(true);
+    setOpen(false);
   };
   const handleAddress = () => {
     navigate("/home");

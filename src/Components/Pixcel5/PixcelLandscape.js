@@ -23,6 +23,9 @@ const PixcelLandscape = () => {
   const handleCLosed = () => {
     navigate("/home");
   };
+  const handleBuy =()=>{
+    navigate("/buy");
+  }
   return (
     <>
       <HomePage />
@@ -84,7 +87,7 @@ const PixcelLandscape = () => {
                 <div className="col">
                   <button
                     className="btn btn-sm btn-buynow"
-                    onClick={handleCLosed}
+                    onClick={handleBuy}
                   >
                     {data.id.button}
                   </button>

@@ -7,7 +7,6 @@ import HomePage from "../HomePage/HomePage";
 import "./BuyPixcel.scss";
 import Address from "../Address/Address";
 import ShowAdress from "../Address/ShowAdress";
-
 const BuyPixcel = () => {
   const [show, setShow] = useState(true);
   const [open, setOpen] = useState(true);
@@ -26,7 +25,7 @@ const BuyPixcel = () => {
     navigate("/home");
   };
   const handleSubmit = () => {
-    navigate("/home");
+    navigate("/buy");
   };
   return (
     <div>
@@ -74,9 +73,9 @@ const BuyPixcel = () => {
               </div>
               <div className="row addr">
                 {open ? (
-                  <ShowAdress setOpen={setOpen} />
-                ) : (
                   <Address setOpen={setOpen} />
+                  ) : (
+                    <ShowAdress setOpen={setOpen} />
                 )}
               </div>
               <div className="show-addres row"></div>

@@ -6,7 +6,7 @@ const ShowAdress = ({setOpen=()=>false}) => {
   let navigate = useNavigate();
   var addr = JSON.parse(localStorage.getItem("address"));
   const handleAddress=()=>{
-    setOpen(false)
+    setOpen(true)
   }
   return (
     <div className="show-add col">
